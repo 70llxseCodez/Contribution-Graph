@@ -56,7 +56,7 @@ export const getFormattedDate = (date: string) => {
   const weekday = inputDate.getDay();
 
   const fullWeekDays: Record<string, string> = {
-    0: "Вторник",
+    0: "Понедельник",
     1: "Вторник",
     2: "Среда",
     3: "Четверг",
